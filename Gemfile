@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.6'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -27,11 +27,13 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'paperclip', '~> 3.4.1'
+#gem 'paperclip', '~> 3.4.1'
 
-gem 'spree_core', '~> 2.1.0'
+gem 'spree', '~> 2.2.4'
 
-gem 'browsercms', '~> 4.0.0.beta'
+#gem 'spree_core', git@github.com:jamelablack/browsercms.git
+
+gem 'browsercms', '~> 4.0.0.beta', :git => 'git://github.com/jamelablack/browsercms.git', :branch => 'master'
 
 
 group :doc do
