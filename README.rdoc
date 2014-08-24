@@ -22,7 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
+Adding text to differentiate rails-4.1.x
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
