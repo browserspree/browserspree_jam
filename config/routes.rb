@@ -53,4 +53,5 @@ SpreeBcms::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  mount_browsercms
 end
