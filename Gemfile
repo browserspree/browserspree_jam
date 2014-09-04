@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 #gem 'paperclip', '~> 3.4.1'
 
-gem 'spree', '~> 2.2.4'
+#gem 'spree', '~> 2.2.4'
 
 #gem 'spree_core', git@github.com:jamelablack/browsercms.git
 
@@ -54,3 +54,7 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem 'spree', '2.2.4'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
+#gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
