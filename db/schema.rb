@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140904183185) do
+ActiveRecord::Schema.define(version: 20140904222421) do
 
   create_table "cms_attachment_versions", force: true do |t|
     t.string   "data_file_name"
@@ -548,6 +548,9 @@ ActiveRecord::Schema.define(version: 20140904183185) do
     t.string   "type",                              default: "Cms::User"
     t.string   "source"
     t.text     "external_data"
+    t.string   "spree_api_key",          limit: 48
+    t.integer  "ship_address_id"
+    t.integer  "bill_address_id"
   end
 
   add_index "cms_users", ["email"], name: "index_cms_users_on_email", unique: true
